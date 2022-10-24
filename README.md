@@ -14,4 +14,3 @@ A binary gap within a positive integer N is any maximal sequence of consecutive 
 # Write an efficient algorithm for the following assumptions:
 #
 # N is an integer within the range [1..2,147,483,647].
-# Copyright 2009–2022 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
