@@ -1,0 +1,79 @@
+<HTML>
+    <HEAD>
+        <SCRIPT>
+            function Find(){
+                var a=parseInt(document.getElementById("txta").value);
+                var b=parseInt(document.getElementById("txtb").value);
+                var c=parseInt(document.getElementById("txtc").value);
+
+                var g=0;
+
+                if(a>b){
+                    if(a>c){
+                        g=a;
+                    }
+
+                }
+                else{
+                    if(b>c){
+                        g=b;
+                    }
+                    else{
+                        g=c;
+                    }
+                }
+
+                document.getElementById("txtd").value=""+g;
+
+
+            }
+        </SCRIPT>
+    </HEAD>
+    <BODY>
+        <h2>Nested If : True/False ladder</h2>
+
+
+
+                <form>
+                    <label>Enter A</label>
+
+
+                    <input type="text" name="txta" id="txta" />
+
+
+
+
+                    <label>Enter B</label>
+
+
+                    <input type="text" name="txtb" id="txtb"  />
+
+
+
+
+                    <label>Enter C</label>
+
+
+                    <input type="text" name="txtc" id="txtc"  />
+
+
+
+
+                    &nbsp;
+
+
+                    <input type="button" value="Find" onclick="Find()" />
+
+
+
+
+
+                    <label>Greater</label>
+
+
+                    <input type="text" name="txtd" id="txtd" readonly />
+
+            </form>
+
+    </BODY>
+</HTML>
